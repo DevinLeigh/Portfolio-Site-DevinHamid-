@@ -125,3 +125,18 @@ a:active { /* selected link */
   font-size: 35px;
   color: #ce1283;
 }
+
+.social {
+  height: 32px;
+  width: 32px;
+}
+
+.project {
+  max-height: 500px;
+  max-width: 750px;
+}
+
+.self {
+  max-height: 700px;
+  max-width: 700px;
+}
