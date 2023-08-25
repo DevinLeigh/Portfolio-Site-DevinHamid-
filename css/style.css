@@ -9,7 +9,12 @@ Link Color (Bright Blue): #102bb1;
 Visited Link Color (Dark Turquoise): #225f62;
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  box-sizing: border-box;
   background-color: #fff;
   font-family: 'DM Sans', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
@@ -54,7 +59,8 @@ a {
   text-decoration: none; /* No underlining */
 }
 
-a:visited { /* visited link */
+a:visited {
+  /* visited link */
   color: #164445;
 }
 
@@ -64,7 +70,8 @@ a:focus {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #093986;
 }
 
@@ -79,7 +86,8 @@ a:active { /* selected link */
   transition: 0.2s opacity;
 }
 
-.button:visited {/* selected button */
+.button:visited {
+  /* selected button */
   background-color: #ce1283;
   color: #f6f641;
 }
@@ -89,7 +97,8 @@ a:active { /* selected link */
   text-decoration: none;
 }
 
-.button:active {/* selected button */
+.button:active {
+  /* selected button */
   background-color: #3b2358;
   color: #fff;
 }
@@ -140,3 +149,70 @@ a:active { /* selected link */
   max-height: 700px;
   max-width: 700px;
 }
+
+/* Layout styling */
+
+header {
+  background-color: #a4dfe0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul > li > a:visited {
+  color: #ce1283;
+}
+
+nav > ul > li > a:hover {
+  opacity: 0.8;
+}
+
+nav > ul > li > a:active {
+  color: #3b2358;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #093986;
+}
+
