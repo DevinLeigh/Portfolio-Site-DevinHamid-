@@ -2,7 +2,7 @@
 Colors used:
 Background Color (Turquoise): #a4dfe0;
 --Primary Color (Turquoise): #3ca1aa;
-Primary Text Color (Purple): #3b2358;
+Primary Text Color (Purple): #3b2358; #442a87
 Accent Color 1 (Pink): #ce1283;
 Accent Color 2 (Blue): #093986;
 Link Color (Bright Blue): #102bb1;
@@ -20,10 +20,13 @@ body {
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 475; /* Sets the font weight to 300 */
   line-height: 1.3; /* Sets the line-height to 1.6 * the font-size */
-  color: #3b2358;
+  color: #442a87;
 }
 
-h1,
+h1 {
+  line-height: 1.2;
+}
+
 h2,
 h3,
 h4 {
@@ -56,6 +59,7 @@ img {
 
 a {
   color: #102bb1;
+  font-weight: 700;
   text-decoration: none; /* No underlining */
 }
 
@@ -120,12 +124,11 @@ a:active {
   color: #fff;
 }
 
-#contact {
-  background-color: #a4dfe0;
-}
-
 #hero {
   background-color: #a4dfe0;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 #my-logo {
@@ -156,6 +159,13 @@ header {
   background-color: #a4dfe0;
   text-align: center;
   padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  height: [object Object]px;
+  border: solid #3b2358 0;
+  box-shadow: 0 4px 20px rgba(59, 35, 88, 0.3);
+  -webkit-box-shadow: 0 4px 20px rgba(59, 35, 88, 0.3);
+  -moz-box-shadow: 0 4px 20px rgba(59, 35, 88, 0.3);
 }
 
 .container {
@@ -216,3 +226,27 @@ nav > ul > li > a {
   color: #093986;
 }
 
+.icons {
+  padding: 15px 5px;
+  display: inline-block;
+}
+
+main {
+  padding-top: 118.3px;
+}
+
+footer {
+  background-color: #a4dfe0;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.process h3 {
+  margin-top: 20px;
+  line-height: 1px;
+}
+
+.paragraph {
+  margin-bottom: 50px;
+}
