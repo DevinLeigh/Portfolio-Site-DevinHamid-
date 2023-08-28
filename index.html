@@ -22,7 +22,7 @@
             <a href="index.html" id="my-logo" class="logo">Devin Hamid</a>
             <nav>
                 <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
+                    <li><a href="index.html" class="current">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -33,16 +33,14 @@
     <main>
         <div id="hero">
             <div class="container">
-                <div class="center">
-                    <h1><span>Hi! I’m Devin.</span></h1>
-                    <h2>I'm a UI Designer based in Seattle, WA.</h2>
-                    <p>
-                        With a background ranging from theatre arts to cancer research, I aim to create striking
-                        designs
-                        with an
-                        attention to detail.
-                    </p>
-                </div>
+                <h1><span>Hi! I’m Devin.</span></h1>
+                <h2>I'm a UI Designer based in Seattle, WA.</h2>
+                <p>
+                    With a background ranging from theatre arts to cancer research, I aim to create striking
+                    designs
+                    with an
+                    attention to detail.
+                </p>
             </div>
         </div>
 
@@ -52,13 +50,13 @@
                     <h1>My Work</h1>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="col-md-6">
                         <picture>
                             <source srcset="img/home/MixTape@1x.jpg" media="(max-width:767px)">
                             <img src="img/home/MixTape@2x.jpg" class="project" alt="Mix Tape App Cover">
                         </picture>
                     </div>
-                    <div>
+                    <div class="col-md-6">
                         <h3>Mix Tape</h3>
                         <p>
                             The task of this project was to create a UI direction for a music player app that would
@@ -75,13 +73,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="col-md-6">
                         <picture>
                             <source srcset="img/home/SpotFinder@1x.jpg" media="(max-width:767px)">
                             <img src="img/home/SpotFinder@2x.jpg" class="project" alt="Spot Finder App Cover">
                         </picture>
                     </div>
-                    <div>
+                    <div class="col-md-6">
                         <h3>Spot Finder</h3>
                         <p>
                             Tasked with creating a responsive web app of my choosing for location-based
@@ -103,7 +101,7 @@
     </main>
 
     <footer id="contact">
-        <div class="container">
+        <div class="container", class="center">
             <h2>Get in Touch</h2>
             <p>
                 Do you like my work and want to discuss opportunities? Please get in touch - I'd love to hear from
