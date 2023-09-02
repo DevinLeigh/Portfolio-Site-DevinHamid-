@@ -99,6 +99,7 @@ a:active {
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+  color: #f6f641;
 }
 
 .button:active {
@@ -259,6 +260,14 @@ nav > ul > li > a.current {
   color: #ce1283;
 }
 
+#my-story p {
+  text-align: left;
+}
+
+#skills h2 {
+  text-align: center;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -296,17 +305,108 @@ Medium devices (640px and larger)
     clear: both;
     display: table;
   }
-}
 
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  #my-story a {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+}
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+    float: right;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  #my-story h2 {
+    text-align: left;
+    font-size: 2.25em;
+  }
+
+  #my-story a {
+    float: left;
+    margin-top: 30px;
+  }
+
+  #my-story p {
+    margin-right: 20px;
+  }
+
+  #skills-tools {
+    margin-top: 45px;
+    text-align: left;
+    text-indent: 100px;
+    font-size: 2.25em;
+    margin-bottom: 25px;
+  }
+
+  #skills {
+    padding-top: 0;
+    padding-left: 100px;
+  }
+
+  #tools {
+    float: right;
+    padding-left: 100px;
+  }
 }
 
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
+/* =======
+Animation
+========== */
+
+#about-picture {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes color-change {
+  0% { fill: #edc655; }
+  50% { fill: #fcffad; }
+  100% { fill: #f76414; }
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from { transform: translate(0, 50px); }
+  to { transform: translate(200px, 50px); }
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from { transform: translate(446px, 48px); }
+  to { transform: translate(100px, 48px); }
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
