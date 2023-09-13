@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Mix Tape</title>
+    <script src="https://kit.fontawesome.com/975fe291c5.js" crossorigin="anonymous"></script>
     <link href="/img/favicon.ico" rel="short cut icon">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;0,9..40,1000;1,9..40,400&display=swap"
@@ -18,14 +19,17 @@
 <body>
     <header>
         <div class="container">
-            <a href="index.html" id="my-logo" class="logo">Devin Hamid</a>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <a href="index.html" id="my-logo" class="logo">Devin Hamid</a>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>           
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -167,6 +171,8 @@
             <p>Copyright Devin Hamid 2023</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 
