@@ -325,6 +325,10 @@ Medium devices (640px and larger)
     display: none;
   }
 
+  .navtoggle.responsive li {
+    border-top: 0;
+  }
+
   nav > ul {
     margin: 1em 0;
   }
