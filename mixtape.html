@@ -1,179 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project: Mix Tape</title>
-    <script src="https://kit.fontawesome.com/975fe291c5.js" crossorigin="anonymous"></script>
-    <link href="/img/favicon.ico" rel="short cut icon">
+    <title>DevinHamid UI Designer Seattle</title>
+    <script
+      src="https://kit.fontawesome.com/975fe291c5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="/img/favicon.ico" rel="short cut icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;0,9..40,1000;1,9..40,400&display=swap"
-        rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700;9..40,1000&family=Instrument+Serif&family=Passion+One:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    >
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <div class="navtoggle" id="myNavtoggle">
-                <a href="index.html" id="my-logo" class="logo">Devin Hamid</a>
-                <nav>
-                    <ul class="navigation">
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>           
-                    </ul>
-                </nav>
-            </div>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="index.html" id="my-logo" class="logo">Devin Hamid</a>
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
 
     <main>
-        <div id="main">
-            <div class="container">
-                <div class="center">
-                    <h1>Mix Tape</h1>
-                </div>
-                <div>
-                    <div>
-                        <picture>
-                            <source srcset="img/home/MixTape@1x.jpg" media="(max-width:767px)">
-                            <img src="img/home/MixTape@2x.jpg" alt="Mix Tape App Cover">
-                        </picture>
-                    </div>
-                    <div>
-                        <p>
-                            Mix Tape is a music player mobile app that plays music and videos from the 1980s. This app
-                            will allow a user to create a profile, search for artists, and curate playlists. I decided
-                            the
-                            UI should feel reminiscent of the music devices used in the 80s, evoking fun and nostalgia
-                            while
-                            remaining intuitive and user-friendly.
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <div class="center">
-                        <h2>My Process</h2>
-                    </div>
-                    <div class="process">
-                        <picture>
-                            <source srcset="img/mixtape/Research@1x.jpg" media="(max-width:767px)">
-                            <img src="img/mixtape/Research@2x.jpg" alt="Mix Tape Research">
-                        </picture>
-                        <h3>Research</h3>
-                        <p class="paragraph">
-                            First, I studied and compared 3 similar music apps to get an idea of what elements might be
-                            most
-                            helpful to include, as well as looking for design principles and patterns found in each.
-                        </p>
-                    </div>
-                    <div class="process">
-                        <picture>
-                            <source srcset="img/mixtape/Ideation@1x.jpg" media="(max-width:767px)">
-                            <img src="img/mixtape/Ideation@2x.jpg" alt="Mix Tape Ideation">
-                        </picture>
-                        <h3>Ideation</h3>
-                        <p class="paragraph">
-                            Low-fidelity wireframes were sketched on paper, helping to solidify and create the overall
-                            look,
-                            feel, and flow of the design I wanted.
-                        </p>
-                    </div>
-                    <div class="process">
-                        <picture>
-                            <source srcset="img/mixtape/Wireframe@1x.jpg" media="(max-width:767px)">
-                            <img src="img/mixtape/Wireframe@2x.jpg" alt="Mix Tape Wireframe">
-                        </picture>
-                        <h3>Wireframes</h3>
-                        <p class="paragraph">
-                            Using what I learned about grids, layout, and spacing, the low-fidelity wireframes were made
-                            into mid-fidelity wireframes using Adobe XD.
-                        </p>
-                    </div>
-                    <div class="process">
-                        <picture>
-                            <source srcset="img/mixtape/Design@1x.jpg" media="(max-width:767px)">
-                            <img src="img/mixtape/Design@2x.jpg" alt="Mix Tape Design">
-                        </picture>
-                        <h3>Design</h3>
-                        <p class="paragraph">
-                            I designed and built a set of cohesive icons from scratch using vector shape tools.<br><br>
-                            Finally, the text styles and color palette were defined and could then be added to the
-                            design to
-                            create the final high-fidelity wireframes.
-                        </p>
-                    </div>
-                    <div class="process">
-                        <picture>
-                            <source srcset="img/mixtape/Mockups@1x.jpg" media="(max-width:767px)">
-                            <img src="img/mixtape/Mockups@2x.jpg" alt="Mix Tape Mockups">
-                        </picture>
-                        <h3>Mockups</h3>
-                        <p class="paragraph">
-                            Adding the final frames to mockups illustrates the overall design of the app and how it will
-                            appear in “real life.” Even though only 6 pages were created, it’s easy to understand how
-                            this
-                            app would look to the user.
-                        </p>
-                    </div>
-                    <div>
-                        <div class="center">
-                            <h2>Conclusion</h2>
-                        </div>
-                        <p class="paragraph">
-                            This was a smaller project, intended to give me practice with fundamental elements of
-                            design.
-                            The task was to create a UI direction that would work for branding and digital UI of the
-                            product
-                            for a target audience age range that I fall into, so I set out to create a useful, fun
-                            product
-                            that I would personally enjoy using. With that as the benchmark, I feel this project was
-                            very
-                            successful.
-                        </p>
-                    </div>
-                </div>
+      <div id="main">
+        <div class="container">
+          <div class="center">
+            <h1>Mix Tape</h1>
+          </div>
+          <div>
+            <div>
+              <picture>
+                <source
+                  srcset="img/home/MixTape@1x.jpg"
+                  media="(max-width:767px)"
+                >
+                <img src="img/home/MixTape@2x.jpg" alt="Mix Tape App Cover">
+              </picture>
             </div>
         </div>
+            <div>
+              <p>
+                Mix Tape is a music player mobile app that plays music and
+                videos from the 1980s. This app will allow a user to create a
+                profile, search for artists, and curate playlists. I decided the
+                UI should feel reminiscent of the music devices used in the 80s,
+                evoking fun and nostalgia while remaining intuitive and
+                user-friendly.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="center">
+              <h2>My Process</h2>
+            </div>
+            <div class="process">
+              <picture>
+                <source
+                  srcset="img/mixtape/Research@1x.jpg"
+                  media="(max-width:767px)"
+                >
+                <img
+                  src="img/mixtape/Research@2x.jpg"
+                  alt="Mix Tape Research"
+                >
+              </picture>
+              <h3>Research</h3>
+              <p class="paragraph">
+                First, I studied and compared 3 similar music apps to get an
+                idea of what elements might be most helpful to include, as well
+                as looking for design principles and patterns found in each.
+              </p>
+            </div>
+            <div class="process">
+              <picture>
+                <source
+                  srcset="img/mixtape/Ideation@1x.jpg"
+                  media="(max-width:767px)"
+                >
+                <img
+                  src="img/mixtape/Ideation@2x.jpg"
+                  alt="Mix Tape Ideation"
+                >
+              </picture>
+              <h3>Ideation</h3>
+              <p class="paragraph">
+                Low-fidelity wireframes were sketched on paper, helping to
+                solidify and create the overall look, feel, and flow of the
+                design I wanted.
+              </p>
+            </div>
+            <div class="process">
+              <picture>
+                <source
+                  srcset="img/mixtape/Wireframe@1x.jpg"
+                  media="(max-width:767px)"
+                >
+                <img
+                  src="img/mixtape/Wireframe@2x.jpg"
+                  alt="Mix Tape Wireframe"
+                >
+              </picture>
+              <h3>Wireframes</h3>
+              <p class="paragraph">
+                Using what I learned about grids, layout, and spacing, the
+                low-fidelity wireframes were made into mid-fidelity wireframes
+                using Adobe XD.
+              </p>
+            </div>
+            <div class="process">
+              <picture>
+                <source
+                  srcset="img/mixtape/Design@1x.jpg"
+                  media="(max-width:767px)"
+                >
+                <img src="img/mixtape/Design@2x.jpg" alt="Mix Tape Design">
+              </picture>
+              <h3>Design</h3>
+              <p class="paragraph">
+                I designed and built a set of cohesive icons from scratch using
+                vector shape tools.<br><br>
+                Finally, the text styles and color palette were defined and
+                could then be added to the design to create the final
+                high-fidelity wireframes.
+              </p>
+            </div>
+            <div class="process">
+              <picture>
+                <source
+                  srcset="img/mixtape/Mockups@1x.jpg"
+                  media="(max-width:767px)"
+                >
+                <img src="img/mixtape/Mockups@2x.jpg" alt="Mix Tape Mockups">
+              </picture>
+              <h3>Mockups</h3>
+              <p class="paragraph">
+                Adding the final frames to mockups illustrates the overall
+                design of the app and how it will appear in “real life.” Even
+                though only 6 pages were created, it’s easy to understand how
+                this app would look to the user.
+              </p>
+            </div>
+            <div>
+              <div class="center">
+                <h2>Conclusion</h2>
+              </div>
+              <p class="paragraph">
+                This was a smaller project, intended to give me practice with
+                fundamental elements of design. The task was to create a UI
+                direction that would work for branding and digital UI of the
+                product for a target audience age range that I fall into, so I
+                set out to create a useful, fun product that I would personally
+                enjoy using. With that as the benchmark, I feel this project was
+                very successful.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer id="contact">
-        <div class="container center">
-            <h2>Get in Touch</h2>
-            <p>
-                Do you like my work and want to discuss opportunities? Please get in
-          touch - I'd love to hear from you!<br />
-          Call: <a href="tel:2069192267">(206) 919-2267</a>. <br /><br />Prefer sending an
+      <div class="container center">
+        <h2>Get in Touch</h2>
+        <p>
+          Do you like my work and want to discuss opportunities? Please get in
+          touch - I'd love to hear from you!<br>
+          Call: <a href="tel:2069192267">(206) 919-2267</a> or Skype me
+          <a href="skype:devinleigh_4">here</a>. <br><br>Prefer sending an
           email?
-            </p>
-            <div>
-                <a href="mailto:devinhamid1@gmail.com" class="button contact">Send Me An Email</a>
-            </div>
-            <div class="icons">
-                <!--Social Media Layout and Placeholders-->
-                <a href="https://www.linkedin.com/in/devin-hamid/" target="_blank">
-                    <img src="img/home/linkedin_logo_icon.png" class="social" alt="LinkedIn Logo">
-                </a>
-            </div>
-            <div class="icons">
-                <a href="https://www.behance.net/devinhamid" target="_blank">
-                    <img src="img/home/behance_icon.png" class="social" alt="Behance Logo">
-                </a>
-            </div>
-        </div>
+        </p>
         <div>
-            <p>Copyright Devin Hamid 2023</p>
+          <a href="mailto:devinhamid1@gmail.com" class="button contact"
+            >Send Me An Email</a
+          >
         </div>
+        <div class="icons">
+          <!--Social Media Layout and Placeholders-->
+          <a href="https://www.linkedin.com/in/devin-hamid/" target="_blank">
+            <img
+              src="img/home/linkedin_logo_icon.png"
+              class="social"
+              alt="LinkedIn Logo"
+            >
+          </a>
+        </div>
+        <div class="icons">
+          <a href="https://www.behance.net/devinhamid" target="_blank">
+            <img
+              src="img/home/behance_icon.png"
+              class="social"
+              alt="Behance Logo"
+            >
+          </a>
+        </div>
+      </div>
+      <div>
+        <p>Copyright Devin Hamid 2023</p>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
